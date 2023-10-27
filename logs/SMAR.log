@@ -231,3 +231,42 @@
 "26-Oct-23 17:51:44" - werkzeug - INFO -  * Restarting with stat
 "26-Oct-23 17:51:44" - werkzeug - WARNING -  * Debugger is active!
 "26-Oct-23 17:51:44" - werkzeug - INFO -  * Debugger PIN: 858-589-778
+"27-Oct-23 15:42:36" - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+"27-Oct-23 15:42:36" - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+"27-Oct-23 15:42:36" - werkzeug - INFO -  * Restarting with stat
+"27-Oct-23 15:42:37" - werkzeug - WARNING -  * Debugger is active!
+"27-Oct-23 15:42:37" - werkzeug - INFO -  * Debugger PIN: 936-996-106
+"27-Oct-23 15:49:37" - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.5.254:5000
+"27-Oct-23 15:49:37" - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+"27-Oct-23 15:49:37" - werkzeug - INFO -  * Restarting with stat
+"27-Oct-23 15:49:38" - werkzeug - WARNING -  * Debugger is active!
+"27-Oct-23 15:49:38" - werkzeug - INFO -  * Debugger PIN: 936-996-106
+"27-Oct-23 15:50:43" - werkzeug - INFO - 192.168.5.125 - - [27/Oct/2023 15:50:43] "[33mGET / HTTP/1.1[0m" 404 -
+"27-Oct-23 15:50:43" - werkzeug - INFO - 192.168.5.125 - - [27/Oct/2023 15:50:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+"27-Oct-23 15:50:57" - werkzeug - INFO - 192.168.5.110 - - [27/Oct/2023 15:50:57] "[33mGET / HTTP/1.1[0m" 404 -
+"27-Oct-23 15:50:57" - werkzeug - INFO - 192.168.5.110 - - [27/Oct/2023 15:50:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+"27-Oct-23 15:51:05" - SMAR - INFO - Test API is checked!
+"27-Oct-23 15:51:05" - werkzeug - INFO - 192.168.5.110 - - [27/Oct/2023 15:51:05] "GET /test HTTP/1.1" 200 -
+"27-Oct-23 15:51:22" - werkzeug - INFO - 192.168.5.110 - - [27/Oct/2023 15:51:22] "GET /swagger-ui HTTP/1.1" 200 -
+"27-Oct-23 15:51:23" - werkzeug - INFO - 192.168.5.110 - - [27/Oct/2023 15:51:23] "GET /openapi.json HTTP/1.1" 200 -
+"27-Oct-23 15:52:21" - SMAR - INFO - getting terms against 'FORECASTING OF WEATHER'
+"27-Oct-23 15:52:21" - openai - DEBUG - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+"27-Oct-23 15:52:21" - openai - DEBUG - api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "Generate 5 to 15 keywords for social media (twitter, facebook, linkedin, instagram, tiktok) searches for the usecase provide in the following format:\\nkeyword1--|--keyword2--|--keyword3--|--keywordN\\n\\nUseCase:\\n"}, {"role": "user", "content": "FORECASTING OF WEATHER"}], "max_tokens": 500, "temperature": 0}' message='Post details'
+"27-Oct-23 15:52:21" - urllib3.util.retry - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+"27-Oct-23 15:52:21" - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.openai.com:443
+"27-Oct-23 15:52:23" - urllib3.connectionpool - DEBUG - https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+"27-Oct-23 15:52:23" - openai - DEBUG - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=878 request_id=f2917f11bc8d9900d80e99522121a051 response_code=200
+"27-Oct-23 15:52:23" - SMAR - INFO - generated terms are 'weather forecast--|--weather updates--|--meteorology--|--climate prediction--|--weather patterns'
+"27-Oct-23 15:52:23" - werkzeug - INFO - 192.168.5.110 - - [27/Oct/2023 15:52:23] "[35m[1mPOST /keyterm/generate HTTP/1.1[0m" 201 -
+"27-Oct-23 16:16:26" - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.5.254:5000
+"27-Oct-23 16:16:26" - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+"27-Oct-23 16:16:26" - werkzeug - INFO -  * Restarting with stat
+"27-Oct-23 16:16:27" - werkzeug - WARNING -  * Debugger is active!
+"27-Oct-23 16:16:27" - werkzeug - INFO -  * Debugger PIN: 936-996-106

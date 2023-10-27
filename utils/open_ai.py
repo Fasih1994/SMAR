@@ -1,7 +1,9 @@
 import os
 from utils import get_logger
 import openai
+from dotenv import load_dotenv
 
+load_dotenv('.flaskenv')
 openai.api_key = os.environ['OPENAI_API_KEY']
 
 logger = get_logger("SMAR")

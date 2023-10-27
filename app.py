@@ -1,6 +1,9 @@
-from tradeadvisor import create_app
+from SMAR import create_app
 from models import * 
 from utils import get_logger
+from dotenv import load_dotenv
+
+load_dotenv('.flaskenv')
 
 logger = get_logger('SMAR')
 app = create_app()
@@ -13,4 +16,4 @@ def test_api():
     return {'message': "APIs started successfully!"}, 200
 
 if __name__ == "__main__":
-    app.run(host='localhost', port='5000')  
+    app.run(host='0.0.0.0', port='5000')  

@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 
 import resources
 from db import db
-from tradeadvisor.auth_jwt import configure_jwt
+from SMAR.auth_jwt import configure_jwt
 from resources import (
     UserBlueprint,
     StoreBlueprint,
