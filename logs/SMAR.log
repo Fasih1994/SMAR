@@ -296,3 +296,11 @@
 "27-Oct-23 16:26:41" - werkzeug - INFO -  * Restarting with stat
 "27-Oct-23 16:26:42" - werkzeug - WARNING -  * Debugger is active!
 "27-Oct-23 16:26:42" - werkzeug - INFO -  * Debugger PIN: 936-996-106
+"27-Oct-23 16:30:34" - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.5.254:5000
+"27-Oct-23 16:30:34" - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+"27-Oct-23 16:30:34" - werkzeug - INFO -  * Restarting with stat
+"27-Oct-23 16:30:35" - werkzeug - WARNING -  * Debugger is active!
+"27-Oct-23 16:30:35" - werkzeug - INFO -  * Debugger PIN: 936-996-106
