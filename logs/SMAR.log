@@ -316,3 +316,9 @@
 "27-Oct-23 16:47:55" - werkzeug - INFO -  * Restarting with stat
 "27-Oct-23 16:47:55" - werkzeug - WARNING -  * Debugger is active!
 "27-Oct-23 16:47:55" - werkzeug - INFO -  * Debugger PIN: 936-996-106
+"27-Oct-23 16:54:37" - werkzeug - INFO - 192.168.5.110 - - [27/Oct/2023 16:54:37] "[33mGET /get-keywords HTTP/1.1[0m" 404 -
+"27-Oct-23 16:55:01" - werkzeug - INFO - 192.168.5.110 - - [27/Oct/2023 16:55:01] "[31m[1mGET /keyterm/generate HTTP/1.1[0m" 405 -
+"27-Oct-23 16:57:22" - werkzeug - INFO - 192.168.5.110 - - [27/Oct/2023 16:57:22] "OPTIONS /keyterm/generate HTTP/1.1" 200 -
+"27-Oct-23 16:58:38" - werkzeug - INFO - 192.168.5.110 - - [27/Oct/2023 16:58:38] "OPTIONS /keyterm/generate HTTP/1.1" 200 -
+"27-Oct-23 17:00:18" - werkzeug - INFO - 192.168.5.110 - - [27/Oct/2023 17:00:18] "OPTIONS /keyterm/generate HTTP/1.1" 200 -
+"27-Oct-23 17:01:45" - werkzeug - INFO - 192.168.5.110 - - [27/Oct/2023 17:01:45] "OPTIONS /keyterm/generate HTTP/1.1" 200 -
