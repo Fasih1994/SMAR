@@ -1,0 +1,21 @@
+# Web Backend
+flask
+flask-marshmallow
+flask-migrate
+flask-sqlalchemy
+flask-smorest
+flask-jwt-extended
+
+# environment variables
+python-dotenv
+
+# production server
+waitress
+
+# for testing and developing langchain models
+jupyter
+langchain[llms]
+openai
+google-search-results
+google-api-python-client
+tiktoken

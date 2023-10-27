@@ -1,0 +1,1 @@
+from tradeadvisor.main import create_app
