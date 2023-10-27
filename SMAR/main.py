@@ -21,7 +21,7 @@ from blocklist import BLOCKLIST
 
 load_dotenv()
 def create_app(db_url:str = None) -> Flask:
-    app = Flask(__name__)
+    app = Flask(__name__, instance_relative_config=True)
     app.config["API_TITLE"] = "SMAR API"
     app.config["API_VERSION"] = "v1"
     app.config["OPENAPI_VERSION"] = "3.0.3"
