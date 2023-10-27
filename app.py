@@ -1,3 +1,4 @@
+import os
 from SMAR import create_app
 from models import * 
 from utils import get_logger
@@ -16,4 +17,4 @@ def test_api():
     return {'message': "APIs started successfully!"}, 200
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', port='5000')  
+    app.run(host=os.environ["HOST"], port=os.environ["PORT"])  
